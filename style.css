@@ -1,0 +1,69 @@
+.b {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/background.png");
+    background-size: cover;
+
+    overflow-x: hidden;
+
+    background-repeat: repeat-x;
+}
+
+.body {
+    margin: 0px;
+}
+
+.i {
+    position: absolute;
+    height: 150px;
+    margin-top: 432px;
+}
+
+.boy {
+    position: absolute;
+    height: 220px;
+    margin-top: 349px;
+}
+
+.score {
+    position: absolute;
+    font-family: "Arial";
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.end {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+
+    font-family: "Arial";
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0.7;
+    visibility: hidden;
+}
+
+.btn {
+    height: 60px;
+    width: 520px;
+    background-color: green;
+    font-family: "Arial";
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
