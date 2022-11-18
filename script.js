@@ -70,7 +70,7 @@ function run() {
         r = 1;
     }
 
-    rimg.src = "img/run (" + r + ").png";
+    rimg.src = "img/run(" + r + ").png";
 }
 
 //background
